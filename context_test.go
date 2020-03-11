@@ -11,6 +11,11 @@ import (
 
 var save bool
 
+var _ = func() bool {
+	testing.Init()
+	return true
+}()
+
 func init() {
 	flag.BoolVar(&save, "save", false, "save PNG output for each test case")
 	flag.Parse()
