@@ -1,0 +1,1 @@
+goLibBuildPipeline('gg', true, 'ssh://git@github.com/cloudtrust/gg')
