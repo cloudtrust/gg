@@ -11,7 +11,7 @@ import (
 
 var save bool
 
-func init() {
+func main() {
 	flag.BoolVar(&save, "save", false, "save PNG output for each test case")
 	flag.Parse()
 }

@@ -1,2 +1,4 @@
 *.png
 
+vendor/*
+!vendor/modules.txt
